@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支付页面</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Portal</h1>
+        <p class="amount">Amount to Pay: <strong>150€</strong></p>
+        <form action="#" method="post">
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+            
+            <label for="expiry-date">Expiry Date</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+            
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+            
+            <label for="name">Cardholder Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            
+            <button onclick = "https://particuliers.sg.fr/">Submit Payment</button>
+        </form>
+    </div>
+</body>
+</html>
